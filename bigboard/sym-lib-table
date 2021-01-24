@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name espcam)(type Legacy)(uri /home/user/PROJEKTE/ESPbot/espcam/espcam.lib)(options "")(descr ""))
-  (lib (name TP5400)(type Legacy)(uri /home/user/PROJEKTE/ESPbot/TP5400/TP5400.lib)(options "")(descr ""))
+  (lib (name espcam)(type Legacy)(uri ${KIPRJMOD}/../espcam/espcam.lib)(options "")(descr ""))
+  (lib (name TP5400)(type Legacy)(uri ${KIPRJMOD}/../TP5400/TP5400.lib)(options "")(descr ""))
+  (lib (name bigboard-rescue)(type Legacy)(uri ${KIPRJMOD}/bigboard-rescue.lib)(options "")(descr ""))
 )
